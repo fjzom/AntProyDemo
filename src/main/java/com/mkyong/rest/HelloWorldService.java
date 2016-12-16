@@ -17,5 +17,17 @@ public class HelloWorldService {
 		return Response.status(200).entity(output).build();
  
 	}
+	
+	public String method1(){
+		
+		
+		return "Hello world";
+	}
+	
+	public int  method2(){
+		
+		
+		return 1;
+	}
  
 }
